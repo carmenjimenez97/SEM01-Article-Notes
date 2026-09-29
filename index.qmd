@@ -1,0 +1,127 @@
+---
+title: "Article Notes: The Two-Step Approach to Structural Equation Modeling"
+author: "Carmen Jimenez Rodriguez"
+date: today
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-location: left
+    number-sections: true
+    embed-resources: true
+---
+# Introduction
+
+Anderson and Gerbing (1988) explain how structural equation modeling (SEM) can be used to test theories and study relationships between different concepts. The main focus of the article is the recommended two-step approach. First, researchers evaluate the measurement model to determine whether the indicators properly measure the intended constructs. After that, they evaluate the structural model to examine the relationships between those constructs. The authors recommend separating these two steps because problems with measurement can affect how the relationships between constructs are interpreted.
+
+# Background
+
+## Exploratory Versus Confirmatory Analyses
+
+- Exploratory analysis is useful when researchers are still trying to identify patterns or understand how the variables may be connected.
+- Confirmatory analysis is based on a theory or a specific expectation about how the variables should relate to one another.
+- In confirmatory factor analysis, researchers decide before analyzing the data which indicators are expected to measure each construct.
+- The authors warn that researchers should not keep changing a model just to obtain better fit. Any modification should be supported by a reasonable theoretical explanation.
+
+## Theory Testing Versus Predictive Application
+
+- SEM can be used either to test a theory or to make predictions.
+- In theory testing, researchers are interested in finding out whether the proposed model agrees with the observed data.
+- In predictive applications, the main goal is to predict future outcomes as accurately as possible.
+- A model may be useful for prediction without being a strong explanation or test of a theory.
+- The two-step approach is especially helpful for theory testing because it allows researchers to evaluate the constructs before interpreting the relationships between them.
+
+## Estimation Methods
+
+- SEM software can estimate the measurement model and the structural model at the same time.
+- Even though this is possible, the authors explain that estimating both models together may not be the best option when the purpose is to test a theory.
+- Researchers should consider the characteristics of their data, including the sample size, the distribution of the variables, and the assumptions of the estimation method.
+- The estimation method should be selected based on the type of data and the purpose of the research.
+
+# Confirmatory Measurement Model
+
+## Need for Unidimensional Measurement
+
+- Unidimensionality means that several indicators measure the same main construct.
+- This is important because researchers need to clearly understand what each construct represents.
+- Internal consistency shows whether the indicators measure the same construct, while external consistency shows whether the construct relates to other constructs as expected.
+- Reliability alone does not prove that a measure is valid or unidimensional.
+
+## Specification
+
+- The measurement model identifies which observed indicators measure each latent construct.
+- The constructs are allowed to correlate so researchers can evaluate the measurements before testing the structural relationships.
+- Indicators should be selected based on theory and previous research.
+- Cross-loadings and correlated errors should only be added when there is a clear theoretical reason.
+
+## Assessment of Fit
+
+- Researchers evaluate how well the measurement model represents the data.
+- The chi-square test is useful, but its results can be affected by sample size.
+- Researchers should also examine factor loadings, residuals, and whether the results make sense theoretically.
+- A good fit statistic does not replace careful interpretation.
+
+## Respecification
+
+- If the model does not fit well, researchers should first identify the source of the problem.
+- Modification indices can provide useful information, but they should not be followed automatically.
+- Removing indicators or adding new relationships can improve fit but may weaken the meaning of the construct.
+- Any changes should be supported by theory and clearly reported.
+
+# One-Step Versus Two-Step Modeling Approaches
+
+## The Confirmatory Structural Model
+
+- The structural model focuses on the relationships that the theory proposes between latent constructs.
+- The measurement model explains how the constructs are measured, while the structural model examines how those constructs are related.
+- A structural path can show that two constructs are related, but it does not automatically prove that one construct causes the other.
+- For this reason, researchers should evaluate the measurement model first and make sure that the constructs are measured appropriately.
+
+## Recommended Two-Step Modeling Approach
+
+### Step 1: Evaluate the Measurement Model
+
+- In the first step, researchers examine whether the indicators are measuring the constructs they were intended to measure.
+- They evaluate unidimensionality, convergent validity, and discriminant validity.
+- If the measurement model does not fit the data well, researchers should identify and address those problems before examining the structural relationships.
+
+### Step 2: Evaluate the Structural Model
+
+- Once the measurement model is acceptable, researchers add the relationships proposed by the theory.
+- This step examines whether the hypothesized relationships between the constructs are supported by the data.
+- The structural model is more restrictive because it follows the relationships specified by the theory instead of allowing all constructs to relate freely.
+- The results also provide evidence of nomological validity, which refers to whether the constructs relate to one another as the theory predicts.
+
+## Advantages of the Two-Step Approach
+
+- The two-step approach helps researchers identify whether a problem comes from the measurement of the constructs or from the theory itself.
+- It prevents good fit in one part of the model from hiding problems in another part.
+- It allows researchers to evaluate construct validity before interpreting the structural relationships.
+- It reduces interpretational confounding, which can happen when the results do not have the meaning the researcher originally intended.
+- It also makes it easier to compare alternative theoretical models and explain the results clearly.
+
+## Additional Considerations in Structural Model Interpretation
+
+- A model can have a good fit and still not be the only model that explains the data.
+- SEM can provide support for a theory, but it cannot prove that the theory is completely correct.
+- Researchers should be careful when making causal claims because a relationship between two constructs does not always mean that one causes the other.
+- Model changes should be made carefully and supported by theory, not only to improve the fit.
+- Researchers should explain any changes made to the original model and remember that the results may not apply to every sample.
+
+# Conclusion
+
+- Anderson and Gerbing recommend evaluating SEM in two separate steps.
+- First, researchers should check whether the indicators measure the intended constructs correctly.
+- Then, they should examine the relationships proposed by the theory.
+- This approach makes it easier to identify whether a problem comes from the measurements or from the structural model.
+- It also provides stronger evidence of construct validity and makes the results easier to understand.
+- Overall, the authors show that SEM should be guided by theory and careful interpretation, not only by fit statistics.
+
+# References
+
+Anderson, James C., and David W. Gerbing. 1988. “Structural Equation Modeling in Practice: A Review and Recommended Two-Step Approach.” *Psychological Bulletin* 103 (3): 411–423. https://doi.org/10.1037/0033-2909.103.3.411.
+
+# Appendix
+
+- [GitHub Repository](PASTE YOUR GITHUB REPOSITORY LINK HERE)
+- [Published Article Notes on GitHub Pages](PASTE YOUR GITHUB PAGES LINK HERE)
